@@ -74,7 +74,7 @@ class StoryMenuState extends MusicBeatState
 		rankText.setFormat(Paths.font("vcr.ttf"), 32);
 		rankText.size = scoreText.size;
 		rankText.screenCenter(X);
-		if (scoreText.y > FlxG.height
+		if (scoreText.y > FlxG.height)
 		{
 		    scoreText.y = 0 - 32;
 		}
